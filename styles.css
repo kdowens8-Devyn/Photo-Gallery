@@ -37,11 +37,6 @@ nav li{
     display:inline-block;
 }
 
-nav a{
-    font-size: 1.5em;
-    background-color: #000000;
-}
-
 
 figcaption, label, input, small {
     font-size: 1em;
@@ -74,16 +69,16 @@ figcaption{
     text-align: center;
 }
 
-#contact{
+#Contact{
     background-color: #000000;
     text-align: center;
 }
 
-#contact h2{
+#Contact h2{
     color: white;
 }
 
-#contact p{
+#Contact p{
     color: white;
     font-size: .75em;
 }
