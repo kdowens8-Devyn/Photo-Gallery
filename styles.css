@@ -16,6 +16,9 @@ main {
     background-color: white;
 }
 
+header nav{
+    padding-left: 1000px;
+}
 h1{
     font-size: 3em;
     color:#007d7b;
