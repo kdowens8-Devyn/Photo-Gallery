@@ -3,13 +3,12 @@
 <title>Photo Gallery</title>
 <link rel="stylesheet" href="styles.css">
 <header>
-    <h1>TK Photography</h1>
+    <h1 id="top">TK Photography</h1>
     <nav>
         <ul>
             <li><a href="#About">About</a></li>
             <li><a href="#Gallery">Gallery</a></li>
             <li><a href="#Contact">Contact</a></li>
-            <li><a href="#Top">top</a></li>
         </ul>
     </nav>
 </header>
@@ -96,12 +95,12 @@
 
         <p>Please fill out this form and I'll connect with you soon.</p>
         <form>
-            <label for="name">Name</label><br>
-            <input type="name" placeholder="Your full name"><br>
+            <label for="Name">Name</label><br>
+            <input type="text" id="Name" placeholder="Your full name"><br>
             <label for="email">Email</label><br>
             <input type="email" id="email" placeholder="Enter your email address"><br>
-            <label for="message">Message</label><br>
-            <input type="message" cols="42" rows="6" placeholder="What can I help you with?"></input><br>
+            <label for="Message">Message</label><br>
+            <input type="text" id="Message" placeholder="What can I help you with?"><br>
             <button type="submit">Submit</button>
         </form>
     </section>
