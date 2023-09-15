@@ -19,6 +19,7 @@ main {
 header nav{
     padding-left: 1000px;
 }
+
 h1{
     font-size: 3em;
     color:#007d7b;
@@ -69,6 +70,7 @@ figure {
 figcaption{
     color: #000;
     text-align: center;
+    position: relative;
 }
 
 #Contact{
